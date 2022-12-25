@@ -1,0 +1,110 @@
+/* CSS for Header and footer */
+body{
+    background-color: #f5f3ef !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+.header {
+    position: static;
+    margin: 0px;
+    width: 100%;
+    text-align: left;
+    background: #f5f3ef ;
+  }
+
+  .header table, tr, td {
+    padding: 5px;
+    border: 2px solid #f5f3ef;
+    border-collapse: collapse;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    table-layout: auto;
+    margin: 0%;
+}
+
+.header img {
+    width: 170px;
+    height: 150px;
+    align-items: center;
+}
+
+.header p {
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    color: saddlebrown;
+    text-align: left;
+}
+
+.cartText p{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(63, 41, 27);
+}
+
+.header li {
+    float: right;
+}
+
+.header li a {
+    display: block;
+    margin: 0px;
+    color: rgb(204, 185, 185);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.header li a:hover {
+    background-color: rgb(202, 186, 169);
+    color: black;
+    text-decoration: none;
+}
+
+.container{
+    
+    position: static;
+    margin: 0 10% 0 0 ;
+    width: 100%;
+    padding: 5%;
+}
+
+.container  p{
+    color: rgb(255, 255, 255)!important;
+}
+
+.container table {
+    border: 1px solid #ffffff;
+}
+
+.footer {
+    position: fixed;
+    margin: 0px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: left;
+    background: rgb(63, 41, 27);
+  }
+
+.footer p{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5%;
+    color: #f5f3ef;
+    text-align: left;
+}
+
+.footer p a{
+    color: white;
+}
