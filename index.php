@@ -57,7 +57,7 @@ else{
 <div class="row">
   <div class="column1">
     <?php
-	session_start();
+	//session_start();
 	require_once "./functions/database_functions.php";
 	$conn = db_connect();
 
