@@ -53,3 +53,11 @@ if(isset($_POST["submit"])){
     <a href="login.php">Login</a>
   </body>
 </html>
+
+<style type="text/css">
+  label{
+    width:135px;
+    display:inline-block;
+    text-align: right;
+  }
+</style>
