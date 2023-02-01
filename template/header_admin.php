@@ -23,6 +23,7 @@
         <ul>
           <li style="float: left;"><a href="admin_book.php">Booklist</a></li>
           <li style="float: left;"><a href="admin_add.php">Add Book</a></li>
+          <li style="float: left;"><a href="admin_order.php">Order List</a></li>
         </ul>
       </div>
         <!----------Content section start------------->
