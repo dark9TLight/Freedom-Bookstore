@@ -26,6 +26,7 @@
           <li style="float: left;"><a href="index.php">Home</a></li>
           <li style="float: left;"><a href="books.php">Book</a></li>
           <li style="float: left;"><a href="contact.php">Contact Us</a></li>
+          <li style="float: left;"><a href="logout.php">logout</a></li>
           <li><a href="cart.php"><i class="glyphicon glyphicon-shopping-cart"></i></a></li>
         </ul>
       </div>
